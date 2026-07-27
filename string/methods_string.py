@@ -1,0 +1,11 @@
+str1 = 'this is MY string!'
+print(str1.capitalize())  
+print(str1.casefold())  
+print(str1.center(50,'#')) 
+print(str1.count('s')) 
+print(str1.endswith('!')) 
+print(str1.startswith('t')) 
+print(str1.split('s')) 
+split_string = str1.split(' ')
+print(' '.join(split_string))
+print(str1.replace('t', 'z'))
