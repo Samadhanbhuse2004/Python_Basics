@@ -6,17 +6,17 @@ class Mobile:
         self.rom = int(input("Enter the rom : "))
         
     def suggest_mobile(self):
-        if self.budget == 15000:
+        if self.budget <= 15000:
             return f"you choose this mobile :  Realme"
         
-        elif self.budget == 20000:
+        elif self.budget <= 20000:
             return f"you choose this mobile : Vivo"
-        elif self.budget == 25000:
+        elif self.budget <= 25000:
             return f"you choose this mobile : Samsung"
         
-        elif self.budget == 30000:
+        elif self.budget <= 30000:
             return f"you choose this mobile : oneplus"
-        elif self.budget == 150000:
+        elif self.budget <= 150000:
             return f"you choose this mobile : iphone"
         else:
             return "sorry you not buy mobile "
